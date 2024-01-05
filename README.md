@@ -19,7 +19,7 @@ https://guiltyfood.onrender.com
 ## アプリケーションを作成した背景
 友人に課題をヒアリングし、日々の食生活の中で「チートデイで食べすぎると罪悪感が上回って逆にストレスがたまる」という課題を抱えていると判明した。課題を分析した結果、「共感を得たい、仲間がほしい」ということが真因であると仮説を立てた。また、現状のSNSだと同様の投稿はあるものの、正しい食事の発信や心無いコメントもあり、よりチートデイの共有にフォーカスした写真投稿型のSNSアプリケーションを開発することにした。
 ## 洗い出した要件
-
+[要件を定義したシート](https://docs.google.com/spreadsheets/d/1hFEU4GcL8PiwiaDkJhndjvBRM2onn5MJLAhnccSM_dw/edit?usp=sharing)
 ## 実装した機能についての画像やGIFおよびその説明
 〜〜画像やGIF,説明を記載予定〜〜
 ## 実装予定の機能
@@ -44,5 +44,5 @@ https://guiltyfood.onrender.com
 % bundle install
 % yarn install
 ## 工夫したポイント
-
+〜〜各実装後に記載予定〜〜
 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
