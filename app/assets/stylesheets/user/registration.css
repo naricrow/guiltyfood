@@ -1,0 +1,17 @@
+.registration_form{
+  width: 100vw;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: white;
+}
+
+input.nickname_field{
+  width: 300px;
+  height: 30px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}

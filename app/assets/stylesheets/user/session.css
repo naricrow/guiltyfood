@@ -32,7 +32,8 @@
 input[type="email"],input[type="password"]{
    width: 300px;
    height: 30px;
-   padding-bottom: 10px;
+   margin-bottom: 20px;
+   font-size: 18px;
 }
 
 input[type="submit"]{
