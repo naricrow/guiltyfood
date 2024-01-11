@@ -2,7 +2,7 @@
 
   <div class="food_main">
     <div class="food_content">
-      <%= @foods.each do |food| %>
+      <% @foods.each do |food| %>
       <li class="list">
         <%= link_to  do %>
           <div class="food_img_content">
@@ -13,7 +13,7 @@
             <%=link_to  food.name, class: "food_name" %>
 
           <h4 class="food_text">
-            <%= food.text %>
+            <%= food.content %>
           </h4>
         </div>
       </li>
@@ -21,6 +21,5 @@
     </div>
   </div>
    
-        <span>トップページ作成中</span>
 
 <%= render "shared/footer"%>

@@ -1,6 +1,6 @@
 <%= form_with(model: @food, local: true) do |form| %>
   <%= render 'shared/error_messages', model:form.object %>
-  <%= form.text_field :image, placeholder: "Image Url" %>
+  <%= form.file_field :image, placeholder: "Image Url" %>
   <%= form.text_field :name, placeholder: "タイトル", rows: "10" %>
   <%= form.text_field :content, placeholder: "内容" %>
   <%= form.submit "SEND" %>
