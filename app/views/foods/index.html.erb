@@ -3,20 +3,15 @@
   <div class="food_main">
     <div class="food_content">
       <% @foods.each do |food| %>
-      <li class="list">
-        <%= link_to  do %>
           <div class="food_img_content">
-            <%= image_tag food.image, class: "food_img" %>
+            <%= link_to image_tag food.image,class: "food_img" %>
           </div>
-        <% end %>
         <div class="food_info">
-            <%=link_to  food.name, class: "food_name" %>
-
-          <h4 class="food_text">
+            <%= link_to food.name,class: "food_name" %>
+          <div class="food_text">
             <%= food.content %>
-          </h4>
+          </div>
         </div>
-      </li>
       <% end %>
     </div>
   </div>
