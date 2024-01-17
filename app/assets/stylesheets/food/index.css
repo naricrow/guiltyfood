@@ -1,12 +1,20 @@
-.food_main{
+/* 全ページ共通 */
+.main{
   width: 100vw;
   height: calc(100vh - 150px);
   background-color: #eeeeee;
 }
 
 .food_content{
+  margin: 0 200px;
+  padding: 30px 20px;
+  border: 1px solid;
 }
 
+.food_img{
+  width: calc( 100vw - 400px );
+  height: 40vh;
+}
 .food_name{
   color: black;
   text-decoration: none;
