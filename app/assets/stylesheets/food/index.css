@@ -3,6 +3,7 @@
   width: 100vw;
   height: calc(100vh - 150px);
   background-color: #eeeeee;
+  padding: 20px 0;
 }
 
 .food_content{

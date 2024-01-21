@@ -1,0 +1,24 @@
+.food_form{
+  margin: 0 200px;
+  padding: 30px 20px;
+  border: 1px solid;
+}
+
+.form_img{
+ display: none;
+}
+
+.form_file{
+        display: block;
+        background-color: #223c8b;
+        width: 180px;
+        height: 30px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border-radius: 5px;
+        padding-top: 2px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+
+}

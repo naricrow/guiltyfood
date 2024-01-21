@@ -3,11 +3,13 @@
   <div class="main">
     <div class="food_content">
       <% @foods.each do |food| %>
+        <% if food.image.attached? %>
           <div class="food_img_content">
-            <%= link_to image_tag food.image,class: "food_img" %>
+            <%= link_to image_tag food.image, class: "food_img" %>
           </div>
+        <% end %>
         <div class="food_info">
-            <%= link_to food.name,class: "food_name" %>
+            <%= link_to food.name, class: "food_name" %>
           <div class="food_text">
             <%= food.content %>
           </div>
