@@ -13,8 +13,8 @@
 }
 
 .food_img{
-  width: calc( 100vw - 400px );
-  height: 40vh;
+  width: calc( 100vw - 500px );
+  height: 50vh;
 }
 .food_name{
   color: black;
