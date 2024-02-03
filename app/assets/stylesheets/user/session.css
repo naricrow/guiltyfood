@@ -13,6 +13,19 @@
   padding: 25px 0;
 }
 
+/* 新規会員登録でも有効 */
+.form_field{
+  border: 1px solid #223c8b;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* 新規会員登録でも有効 */
+.form_submit{
+  background-color: #223c8b;
+  text-align: center;
+  color: white;
+  }
 
 .session_form{
   width: 100vw;

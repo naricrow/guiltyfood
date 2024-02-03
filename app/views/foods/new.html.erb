@@ -1,7 +1,24 @@
-<%= form_with(model: food, local: true) do |form| %>
-  <%= render 'shared/error_messages', model:form.object %>
-  <%= form.text_field :image, placeholder: "Image Url" %>
-  <%= form.text_field :name, placeholder: "タイトル", rows: "10" %>
-  <%= form.text_field :content, placeholder: "内容" %>
-  <%= form.submit "SEND" %>
-<% end %>
+<%= render "shared/header" %>
+
+<div class="main">
+  <div class="food_form">
+  <%= form_with(model: @food, local: true) do |form| %>
+    <%= render 'shared/error_messages', model:form.object %>
+    <label class="form_file">
+      <span class="img-f">画像を選択する</span>
+      <%= form.file_field :image, placeholder: "Image Url",class: "form_img" %>
+    </label>
+    <div class="form_name">
+      <%= form.text_field :name, placeholder: "タイトル", rows: "10", class: "form_name_content" %>
+    </div>
+    <div class="form_content">
+    <%= form.text_field :content, placeholder: "内容", class: "form_content_text" %>
+    </div>
+    <div class="form_btn">
+      <%= form.submit "送信",class: "form_btn_content" %>
+    </div>
+  <% end %>
+  </div>
+</div>
+
+<%= render "shared/footer"%>

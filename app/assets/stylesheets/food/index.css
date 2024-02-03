@@ -1,0 +1,26 @@
+/* 全ページ共通 */
+.main{
+  width: 100vw;
+  height: calc(100vh - 150px);
+  background-color: #dddddd;
+  padding: 20px 0;
+}
+
+.food_content{
+  margin: 0 200px ;
+  padding: 30px 20px;
+  border: 1px solid;
+}
+
+.food_img{
+  width: calc( 100vw - 500px );
+  height: 50vh;
+}
+
+.food_name{
+  color: black;
+  text-decoration: none;
+
+}
+
+

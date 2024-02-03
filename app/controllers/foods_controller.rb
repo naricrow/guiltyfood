@@ -1,5 +1,5 @@
 class FoodsController < ApplicationController
-  
+  before_action :authenticate_user!, only: [:new, :create, :edit, :destroy]
   def index
     @foods = Food.all
   end
@@ -22,5 +22,7 @@ class FoodsController < ApplicationController
   def food_params
     params.require(:food).permit(:image, :name, :content).merge(user_id: current_user.id)
   end
+
+
 
 end

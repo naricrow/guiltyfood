@@ -8,23 +8,16 @@
       <%= render 'shared/error_messages', model: @user %>
       <div class="field">
         <%= f.label :email, "Eメールアドレス",class: "form_text" %><br />
-        <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+        <%= f.email_field :email, autofocus: true, autocomplete: "email" ,class:"form_field" %>
       </div>
     
       <div class="field">
         <%= f.label :password, "パスワード",class: "form_text" %><br />
-        <%= f.password_field :password, autocomplete: "current-password" %>
+        <%= f.password_field :password, autocomplete: "current-password", class:"form_field" %>
       </div>
-    
-      <% if devise_mapping.rememberable? %>
-        <div class="field">
-          <%= f.check_box :remember_me %>
-          <%= f.label :remember_me %>
-        </div>
-      <% end %>
-    
+        
       <div class="actions">
-        <%= f.submit "ログイン" %>
+        <%= f.submit "ログイン",class:"form_submit" %>
       </div>
     <% end %>
   </div>
