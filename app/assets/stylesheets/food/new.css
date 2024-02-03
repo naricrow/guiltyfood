@@ -35,7 +35,7 @@
   border: 2px solid #223c8b;
   margin-top: 40px;
   margin-left: 160px;
-  color: #dddddd;
+  
 }
 
 .form_content{
@@ -46,7 +46,6 @@
   border-radius: 5px;
   border: 2px solid #223c8b;
   margin: 40px 20px 40px 110px;
-  color: #dddddd;
 }
 
 .form_btn{
